@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+}
+.body{
+    display: flex;
+    gap: 10px;
+    color: rgb(11, 11, 253);
+    
+}
+.line{
+    width: 210px;
+    height: 3px;
+    background-color: black;
+    margin-left: 11px;
+    
+}
+.section1{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 47%;
+    margin-left: 6.5px;
+    margin-bottom: -5px;
+}
+.nav{
+    display: flex;
+    gap: 19px;
+}
+section{
+    width: 30px;
+    height: 30px;
+   
+     background-color: white; 
+    border-radius: 50%; 
+    box-shadow: 2px 5px 5px rgb(133, 133, 133), -2px 5px 5px rgb(141, 141, 141), inset 1px 3px 15px rgb(233, 231, 231)
+    , inset -1px 1px 5px rgb(221, 220, 220),inset 1px -1px 5px rgb(61, 14, 14);
+}
+button{
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
